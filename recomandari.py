@@ -58,7 +58,7 @@ def get_product_description(product_id):
 
 # Try to import OpenAI's GPT-3 for generating recommendations
 import openai
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Function to generate a personalized recommendation message using OpenAI's API
 def generate_personalized_message(customer_id, product_id):
