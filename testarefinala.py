@@ -143,7 +143,7 @@ if __name__ == '__main__':
 
     # Try to import OpenAI's GPT-3 for generating recommendations
     import openai
-    openai.api_key = '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'
+    openai.api_key = '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'
 
         # Function to generate a resupply recommendation message using OpenAI's API
     def generate_resupply_message(product_id, order_quantity, reorder_point, safety_stock):
